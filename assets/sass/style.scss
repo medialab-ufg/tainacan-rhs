@@ -1,0 +1,20 @@
+body{
+    &.home{
+        background: white !important;
+    }
+}
+#display_view_main_page{
+    background: white !important;
+    .home-type-title{
+        color: black !important;
+    }
+    .panel{
+        .panel-footer{
+            &.home-title{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
