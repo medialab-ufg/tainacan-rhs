@@ -14,22 +14,54 @@ Text Domain: tainacan-child
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+$colors : (
+    cyprus: #003C46,
+    pacific: #00B4B4,
+    porcelain: #F2F4F5
+);
 
 body{
     &.home{
-        background: white !important;
+        background: map-get($colors, porcelain) !important;
     }
-}
-#display_view_main_page{
-    background: white !important;
-    .home-type-title{
-        color: black !important;
+    nav{
+        &.header-navbar{
+            display: none;
+        }
     }
-    .panel{
-        .panel-footer{
-            &.home-title{
+    header{
+        background-image: none !important;
+        background-color: map-get($colors, cyprus);
+        .menu-transp-cover{
+            display: none;
+        }
+        .home{
+            .project-info{
+                h1{
+                    font-weight: 900 !important;
+                }
+            }
+            #searchBoxIndex{
                 a{
-                    color: black;
+                    .white{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    
+    #display_view_main_page{
+        background: map-get($colors, porcelain) !important;
+        .home-type-title{
+            color: black !important;
+        }
+        .panel{
+            .panel-footer{
+                &.home-title{
+                    a{
+                        color: black;
+                    }
                 }
             }
         }
