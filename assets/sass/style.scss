@@ -24,10 +24,73 @@ body{
     &.home{
         background: map-get($colors, porcelain) !important;
     }
-    nav{
-        &.header-navbar{
-            display: none;
-        }
+    // &.single-socialdb_collection, &.single-socialdb_object, &.logged-in{
+    //     nav{
+    //         &.header-navbar{
+    //             background-color: map-get($colors, pacific) !important;
+    //         }
+    //         .user-actions{
+    //             ul{
+    //                 &.repository-settings, &.admin-configs{
+    //                     li{
+    //                         &.open{
+    //                             a.dropdown-toggle{
+    //                                 background-color: map-get($colors, cyprus) !important;
+    //                             }
+    //                         }
+    //                         &.wp-admin{
+    //                             .dashicons-wordpress{
+    //                                 color: #fff;
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //             form{
+    //                 &.search-tainacan-collection{
+    //                     .search-home{
+    //                         background-color: transparent !important;
+    //                         button{
+    //                             &.showing-input{
+    //                                 border: 1px solid whitesmoke !important;
+    //                             }
+    //                             &#expand-top-search{
+    //                                 border: 1px solid transparent;
+    //                                 &:hover{
+    //                                     border: 1px solid #ccc !important;
+    //                                 }
+    //                             }
+    //                         }
+    //                         ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    //                             color: rgb(255, 255, 255);
+    //                         }
+    //                         :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    //                             color: rgb(255, 255, 255);
+    //                             opacity:  1;
+    //                         }
+    //                         ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    //                             color: rgb(255, 255, 255);
+    //                             opacity:  1;
+    //                         }
+    //                         :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    //                             color: rgb(255, 255, 255);
+    //                         }
+    //                         ::-ms-input-placeholder { /* Microsoft Edge */
+    //                             color: rgb(255, 255, 255);
+    //                         }
+                            
+    //                         ::placeholder { /* Most modern browsers support this now. */
+    //                             color: rgb(255, 255, 255);
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    #main_part_collection{
+        background-image: none !important;
+        background-color: map-get($colors, cyprus) !important;
     }
     header{
         background-image: none !important;
@@ -63,6 +126,15 @@ body{
                         color: black;
                     }
                 }
+            }
+        }
+    }
+
+    #collection_post{
+        .headers_container{
+            .collection_header_img{
+                background-image: none !important;
+                background-color: map-get($colors, cyprus);
             }
         }
     }
