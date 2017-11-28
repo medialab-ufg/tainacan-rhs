@@ -114,6 +114,8 @@ body{
         }
     }
     
+    @import "_menu";
+    
     #display_view_main_page{
         background: map-get($colors, porcelain) !important;
         .home-type-title{
