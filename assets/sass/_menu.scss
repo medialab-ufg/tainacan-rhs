@@ -12,8 +12,9 @@
 }
 #navBar-top{
     .navbar{
-        @media only screen and (min-width:768px){
-            margin-bottom: 0;
+        margin-bottom: 0;
+        @media only screen and (max-width: 768px){
+            border-bottom: 1px solid #00b9b933 !important;
         }
     }
     .navbar-default {
@@ -549,7 +550,7 @@
             input[type=text] {
                 font-size: 17px;
                 padding-left: 18px;
-                width: 31.4em !important;
+                width: 31.4em;
                 height: 51px;
             }
             .input-group .form-control:focus {

@@ -1,0 +1,57 @@
+/************
+*
+* Footer
+*
+*************/
+footer {
+    .footerDescricao {
+        background-color: map-get($colors, cyprus_footer );
+        padding: 6px;
+        text-align: center;
+        p {
+            margin: 10px 0 10px;
+            color: #fff;
+            font: {
+                size: 1.22em;
+                weight: bold;
+            }
+        }
+    }
+    .bordar {
+        border-bottom: 1px solid #009b9b;
+        margin: -9px 9px 7px 0;
+    }
+    .footerMenu {
+        background-color: map-get($colors, cyprus);
+        color: map-get($colors, pacific);
+        margin-bottom: -20px;
+        font-size: 0.95em;
+        .navbar-default {
+            a {
+                background-color: map-get($colors, cyprus);
+                color: map-get($colors, pacific);
+                float: left;
+                padding: 18px;
+                margin-left: 37px;
+                text-transform: uppercase;
+                font-weight: 900;
+                &:hover, &:visited {
+                    color: map-get($colors, pacific) !important;
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+    .corporation {
+        background-color: map-get($colors, cyprus);
+        text-align: center;
+        padding: 9px;
+        a {
+            color: map-get($colors, pacific);
+            &:hover {
+                color: map-get($colors, pacific);
+                text-decoration: underline !important;
+            }
+        }
+    }
+}

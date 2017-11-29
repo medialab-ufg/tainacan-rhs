@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 $colors : (
     cyprus: #003C46,
+    cyprus_footer: #00343d,
     pacific: #00B4B4,
     porcelain: #F2F4F5
 );
@@ -103,6 +104,9 @@ body{
                 h1{
                     font-weight: 900 !important;
                 }
+                h3{
+                    display: none;
+                }
             }
             #searchBoxIndex{
                 a{
@@ -140,4 +144,7 @@ body{
             }
         }
     }
+    
+    @import "_footer";
+    @import "_media-query";
 }
