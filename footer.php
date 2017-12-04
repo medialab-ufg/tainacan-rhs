@@ -32,10 +32,10 @@
             <!--Tainacan version: 0.6-->
         </footer>
     <?php endif; ?>
-
+    
     <footer class="footer hidden-print">
         <section class="footerDescricao">
-            <p> <?php bloginfo( 'description' ); ?> </p>
+            <p> O SUS QUE DÁ CERTO </p>
         </section>
         <section class="footerMenu">
             <nav class="navbar navbar-default">
