@@ -546,7 +546,7 @@
                 background-color: #009b9b;
             }
         }
-        #menuPesquisa {
+        #formSearchCollections {
             input[type=text] {
                 font-size: 17px;
                 padding-left: 18px;
@@ -558,6 +558,10 @@
             }
             span .glyphicon-search {
                 color: #fff;
+            }
+            .adv_search{
+                float: left;
+                margin-left: 6px;
             }
         }
     }
