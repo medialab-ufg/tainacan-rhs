@@ -37,11 +37,6 @@ get_header();
                   alt="<?php _t('Loading', 1); ?>" title="<?php _t('Loading', 1); ?>"/>
              <h3> <?php _e('Loading Collections...', 'tainacan') ?> </h3>
          </div>
-         <script>
-            jQuery(function($){
-                
-            });
-         </script>
      <?php endif; ?>
 
      <div id='container-fluid-configuration' class="container-fluid no-padding">
