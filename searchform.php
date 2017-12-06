@@ -24,6 +24,6 @@
 </form>
 <script>
     if($("#search_collections").is(":focus")){
-        $(".adv_search").css(display: 'block !important');
+        $(".adv_search").css("display: 'block !important'");
     }
 </script>
