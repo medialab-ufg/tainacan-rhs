@@ -1,25 +1,27 @@
 @charset "UTF-8";
 /*
-Theme Name: Tainacan/RHS
-Theme URI: https://github.com/medialab-ufg/tainacan-rhs
-Description: Tema filho do Tainacan adaptado para o acervo da Rede Humaniza SUS
-Author: MediaLab/UFG
-Author URI: https://github.com/medialab-ufg
+Theme Name: Tainacan Child
+Theme URI: https://github.com/l3pufg/tainacan
+Description: Tainacan - um projeto sociocultural em parceria da UFG com o MinC
+Author: L3P UFG
+Author URI: http://www.l3p.fic.ufg.br/
 Template: tainacan
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: tainacan, ufg, minc, cultura, flexible, open_source, rhs, medialab
-Text Domain: tainacan-rhs
-*/
+Tags: tainacan, ufg, minc, cultura, flexible, open_source
+Text Domain: tainacan-child
 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 body {
   /**********
   *
   *Nav Menu
   *
   ***********/
-  /*Menu do Topo que é fixo Nav-menu*
+  /*Menu do Topo que é fixo Nav-menu*/
   /************
   *
   * Footer
@@ -425,7 +427,8 @@ body {
         color: #fff; }
       body #navBar-top .primeiro-menu #formSearchCollections .adv_search, body #navBar-top .segundo-menu #formSearchCollections .adv_search {
         float: left;
-        margin-left: 6px; }
+        margin: auto 5px;
+        padding: 14% 0; }
   body #display_view_main_page {
     background: #F2F4F5 !important; }
     body #display_view_main_page .home-type-title {
