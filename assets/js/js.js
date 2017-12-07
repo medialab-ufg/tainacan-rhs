@@ -19,7 +19,6 @@ function display_view_main_page() {
     }).done(function (result) {
         $("#loader_collections").hide('slow');
         $("#display_view_main_page").html(result);
-        $("#display_view_main_page").find(".home-container").addClass("container");
-        $(".home-container").children(".pdf").find(".row").addClass("container");
+        $(".home-container").children(".pdf").find(".row").removeClass("row");
     });
 }
