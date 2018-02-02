@@ -118,6 +118,8 @@ body {
           color: #fff;
           font-weight: 700;
           text-decoration: underline; }
+    body #navBar-top .rhs-menu {
+      background-color: #fff; }
     body #navBar-top .segundo-menu {
       background-color: #00B4B4; }
       body #navBar-top .segundo-menu li a {
