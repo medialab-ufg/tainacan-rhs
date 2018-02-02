@@ -32,6 +32,8 @@ body {
   * Media Querys
   *
   *****************/ }
+  body ul.admin-configs li.manual, body ul.admin-configs li.wp-admin {
+    display: none; }
   body.home {
     background: #F2F4F5 !important; }
   body #main_part_collection {
