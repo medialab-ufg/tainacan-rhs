@@ -20,7 +20,7 @@
     .navbar-default {
         color: map-get($colors, pacific);;
         background-color: map-get($colors, cyprus);;
-        border: none;
+        border-bottom: 1px solid map-get($colors, pacific);
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -ms-transition: all 0.5s ease;
@@ -47,41 +47,7 @@
                             color: #fff;
                         }
                     }
-                    &:last-child {
-                        > a {
-                            background: none;
-                            padding: {
-                                left: 16px;
-                                right: 16px;
-                                top: 16px;
-                            }
-                            font-size: 15px;
-                            text-decoration: none;
-                            transition: all 0.3s ease-in-out;
-                            -webkit-transition: all 0.3s ease-in-out;
-                            -moz-transition: all 0.3s ease-in-out;
-                            -ms-transition: all 0.3s ease-in-out;
-                            -o-transition: all 0.3s ease-in-out;
-                            img {
-                                margin: {
-                                    left: 7px;
-                                    right: 7px;
-                                    top: -9px;
-                                }
-                                width: 30px;
-                                height: 30px;
-                                border-radius: 25px;
-                                object-fit: cover;
-                                object-position: center;
-                            }
-                            > i {
-                                margin-top: -13px;
-                            }
-                            &:hover {
-                                text-decoration: none;
-                            }
-                        }
-                    }
+                    
                 }
                 > .navbar-text {
                     color: #fff;
