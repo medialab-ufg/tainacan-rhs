@@ -1,13 +1,13 @@
-# Rede HumanizaSUS
+# Tema para RHS
 
-Tema filho para uso com o Tainacan.
-Tema Criado para a RHS
+Este é um tema filho do [Tainacan](https://github.com/medialab-ufg/tainacan) criado especificamente para o acervo da Rede HumanizaSUS.
 
-Para o uso do mesmo é necessario renomear o nome da pasta para {NOMEDOTEMA}-child.
+Para o uso do mesmo é necessário renomear o nome da pasta para {NOMEDOTEMA}-child.
 
-E compilar o SaSS para a ultilização do style.css
+E compilar o SASS para a ultilização do style.css
 
 # Compilando o SASS
-Acesse a pasta do sass que se localiza na pasta THEMA_NAME/assets/sass/
-Atraves do comando: sass style.scss:../../style.css
-Irá compilar o SaSS para o CSS na pasta do Thema.
+Acesse a pasta do sass que se localiza na pasta **_nome_tema_**/assets/sass/
+
+Compile o SASS para o CSS do tema através do comando: 
+`sass style.scss:../../style.css`
