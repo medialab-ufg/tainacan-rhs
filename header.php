@@ -81,6 +81,9 @@ $_header_enabled = get_post_meta($collection_id, 'socialdb_collection_show_heade
                         </button>
                     </div> <!-- /.navbar header -->
                 </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand text-hide" href="http://redehumanizasus.net/">RHS</a>
+                </div>
                 <?php get_template_part("partials/actions", "header"); ?>
             </nav>
         
