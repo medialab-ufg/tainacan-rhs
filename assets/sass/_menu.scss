@@ -20,7 +20,6 @@
     .navbar-default {
         color: map-get($colors, pacific);;
         background-color: map-get($colors, cyprus);;
-        border-bottom: 1px solid map-get($colors, pacific);
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -ms-transition: all 0.5s ease;
@@ -30,8 +29,9 @@
             .navbar-header{
                 .navbar-brand{ 
                     background: url(assets/images/logo.png) center no-repeat;
+                    background-size: 230px auto;
                     display: block;
-                    margin: 8px 0;
+                    margin: 0px 0;
                     width: 284px;
                 }
             }
