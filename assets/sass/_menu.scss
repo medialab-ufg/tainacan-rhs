@@ -10,6 +10,19 @@
 .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
 }
+
+.dropdown-menu-white {
+    border-radius: 4px;
+    background-color: white !important;
+}
+
+.header-navbar .search-tainacan-collection button,
+.search-collection.input-group {
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+
 #navBar-top{
     .navbar{
         margin-bottom: 0;
@@ -537,3 +550,4 @@
         }
     }
 }
+

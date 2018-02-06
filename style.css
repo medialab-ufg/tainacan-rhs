@@ -56,6 +56,13 @@ body {
   body .navbar-default .navbar-nav > .active > a:hover,
   body .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent; }
+  body .dropdown-menu-white {
+    border-radius: 4px;
+    background-color: white !important; }
+  body .header-navbar .search-tainacan-collection button,
+  body .search-collection.input-group {
+    background: transparent;
+    border: 1px solid transparent; }
   body #navBar-top {
     /******************
     *
