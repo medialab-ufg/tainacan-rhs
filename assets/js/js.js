@@ -20,9 +20,9 @@ function checkBreadcrumb () {
     if($(element_to_check).is(':visible')){ 
         $(element_to_check).first().text('Acervo');
     } else {
-      setTimeout(checkBreadcrumb, 50); //wait 50 ms, then try again
+        setTimeout(checkBreadcrumb, 50);
     }
-  }
+}
 
 function display_view_main_page() {
     $.ajax({
