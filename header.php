@@ -69,7 +69,7 @@ $_header_enabled = get_post_meta($collection_id, 'socialdb_collection_show_heade
                 <nav <?php echo set_navbar_bg_color('#003c46', $stat_page); ?> class="navbar navbar-default header-navbar">
                     <div class="navbar-header logo-container">
                         <a class="navbar-brand text-hide" href="http://redehumanizasus.net/">RHS</a>
-                        <button type="button" class="navbar-toggle collapsed" id="btn-toggle" data-toggle="collapse" data-target="#to-collapse">
+                        <button type="button" class="navbar-toggle" id="btn-toggle-menu" data-toggle="collapse" data-target="#menu-to-collapse">
                             <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                         </button>
                     </div>

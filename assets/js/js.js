@@ -1,13 +1,14 @@
 $(document).ready(function () {
-    $(".navbar-toggle").on('click',function(){
-        
-        if($('.navbar-toggle').hasClass('active') ) {
-            $('#navbar6').css({display : "none"});
-            $(this).toggleClass("active");
-        }
-        else{
-            $(this).toggleClass("active");
-            $('#navbar6').css({display : "block"});
+    $("#btn-toggle-menu").on('click',function(){
+        var element_to_collapse = '#menu-to-collapse';
+
+        if($(element_to_collapse).hasClass('in')) {
+            $(element_to_collapse).hide();
+            $(element_to_collapse).removeClass('in');
+        } else {
+            $(element_to_collapse).collapse('show');
+            $(element_to_collapse).addClass('in');
+            $(element_to_collapse).show();
         }
     });
 
