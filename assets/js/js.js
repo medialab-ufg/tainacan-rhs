@@ -12,6 +12,7 @@ $(document).ready(function () {
         }
     });
 
+    $(".user-actions #formSearchCollections").remove();
     checkBreadcrumb();
     
 });
