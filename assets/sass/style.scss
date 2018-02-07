@@ -145,15 +145,6 @@ body{
             }
         }
     }
-
-    #collection_post{
-        .headers_container{
-            .collection_header_img{
-                background-image: none !important;
-                background-color: map-get($colors, cyprus);
-            }
-        }
-    }
     
     @import "_footer";
     @import "_media-query";

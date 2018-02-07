@@ -423,9 +423,6 @@ body {
       color: black !important; }
     body #display_view_main_page .panel .panel-footer.home-title a {
       color: black; }
-  body #collection_post .headers_container .collection_header_img {
-    background-image: none !important;
-    background-color: #003C46; }
   body footer .footerDescricao {
     background-color: #00343d;
     padding: 6px;
