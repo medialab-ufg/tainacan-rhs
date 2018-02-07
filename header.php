@@ -57,6 +57,18 @@ $_header_enabled = get_post_meta($collection_id, 'socialdb_collection_show_heade
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
+
+    <?php
+    if($_header_enabled !== 'enabled' && !(empty($_header_enabled))) {
+    ?>
+    <script type="text/javascript">
+        $(function() {
+            remove_share();
+        })
+        </script>
+    <?php
+    }
+    ?>
 </head>
 
 <!-- TAINACAN: tag body adaptado para o gplus -->
@@ -64,39 +76,18 @@ $_header_enabled = get_post_meta($collection_id, 'socialdb_collection_show_heade
 
     <!-- Tag header para o Primeiro Menu -->
     <header id="navBar-top">
-        <nav class="navbar navbar-default navbar-static-top rhs_menu">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand text-hide" href="http://redehumanizasus.net/">RHS</a>
-                </div>
-                <div id="navbar6" class="navbar-collapse collapse primeiro-menu">
-                    <?php
-                        if(my_wp_is_mobile()){
-                            get_search_form();
-                        }
-                    ?>
-                </div>
-                <nav <?php echo set_navbar_bg_color('black', $stat_page); ?> class="navbar navbar-default header-navbar">
-        <div class="container-fluid">
-            <div class="navbar-header logo-container">
-                <button type="button" class="navbar-toggle collapsed" id="btn-toggle" data-toggle="collapse" data-target="#to-collapse">
-                    <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                </button>
-            </div> <!-- /.navbar header -->
-
-            <?php get_template_part("partials/actions", "header"); ?>
-
-        </div> <!-- /.container-fluid -->
-    </nav>
-
-
-            </div>
+        
+            <nav class="navbar navbar-default navbar-static-top rhs_menu">
+                <nav <?php echo set_navbar_bg_color('#003c46', $stat_page); ?> class="navbar navbar-default header-navbar">
+                    <div class="navbar-header logo-container">
+                        <a class="navbar-brand text-hide" href="http://redehumanizasus.net/">RHS</a>
+                        <button type="button" class="navbar-toggle" id="btn-toggle-menu" data-toggle="collapse" data-target="#menu-to-collapse">
+                            <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <?php get_template_part("partials/actions", "header"); ?>
+                </nav>
+            </nav>
             <div class="collapse navbar-collapse segundo-menu"> 
                 <div class="container-fluid">
                     <?php
@@ -134,19 +125,6 @@ $_header_enabled = get_post_meta($collection_id, 'socialdb_collection_show_heade
             <!--/.container-fluid -->
         </nav>
     </header> <!-- /.header -->
-
-    <nav <?php echo set_navbar_bg_color('black', $stat_page); ?> class="navbar navbar-default header-navbar">
-        <div class="container-fluid">
-            <div class="navbar-header logo-container">
-                <button type="button" class="navbar-toggle collapsed" id="btn-toggle" data-toggle="collapse" data-target="#to-collapse">
-                    <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                </button>
-            </div> <!-- /.navbar header -->
-
-            <?php get_template_part("partials/actions", "header"); ?>
-
-        </div> <!-- /.container-fluid -->
-    </nav>
 
     <?php
 
