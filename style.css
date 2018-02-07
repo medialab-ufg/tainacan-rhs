@@ -63,6 +63,8 @@ body {
   body .search-collection.input-group {
     background: transparent;
     border: 1px solid transparent; }
+  body .headers_container .collection_header {
+    padding-top: 30px; }
   body #navBar-top {
     /******************
     *
