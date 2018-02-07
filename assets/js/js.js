@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#btn-toggle-menu").on('click',function(){
-        var element_to_collapse = '#menu-to-collapse';
+        var element_to_collapse = '.user-actions';
 
         if($(element_to_collapse).hasClass('in')) {
             $(element_to_collapse).hide();

@@ -57,6 +57,18 @@ $_header_enabled = get_post_meta($collection_id, 'socialdb_collection_show_heade
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
+
+    <?php
+    if($_header_enabled !== 'enabled' && !(empty($_header_enabled))) {
+    ?>
+    <script type="text/javascript">
+        $(function() {
+            remove_share();
+        })
+        </script>
+    <?php
+    }
+    ?>
 </head>
 
 <!-- TAINACAN: tag body adaptado para o gplus -->
