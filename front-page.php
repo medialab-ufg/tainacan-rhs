@@ -6,7 +6,7 @@ get_header();
     <header class="container-fluid custom-header" style="<?php echo home_header_bg($socialdb_logo) ?>">
         <div class="row">
             <div class="project-info container">
-                <h1> Acervo Digital da Rede HumanizaSUS </h1>
+                <h1> <?php bloginfo('name'); ?> </h1>
                 <h4 style="color: white"> <?php bloginfo('description'); ?> </h4>
             </div>
         </div>
