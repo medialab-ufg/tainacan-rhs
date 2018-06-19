@@ -1,16 +1,16 @@
 @charset "UTF-8";
 /*
-Theme Name: Tainacan Acervo RHS
+Theme Name: Tainacan Child
 Theme URI: https://github.com/l3pufg/tainacan
-Description: Tema filho do Tainacan criado para o acervo da Rede HumanizaSUS
-Author: MediaLab/UFG
-Author URI: https://github.com/medialab-ufg/tainacan-rhs/
+Description: Tainacan - um projeto sociocultural em parceria da UFG com o MinC
+Author: L3P UFG
+Author URI: http://www.l3p.fic.ufg.br/
 Template: tainacan
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: tainacan, ufg, minc, cultura, flexible, open_source
-Text Domain: tainacan-rhs
+Text Domain: tainacan-child
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -21,6 +21,7 @@ body {
   *Nav Menu
   *
   ***********/
+  /* solução temporária*/
   /*Menu do Topo que é fixo Nav-menu*/
   /************
   *
@@ -52,6 +53,8 @@ body {
       font-weight: 700; }
     body header.custom-header {
       padding: 1.3% 0; }
+  body #tainacan-breadcrumbs, body ol.breadcrumb.item-breadcrumbs {
+    display: none; }
   body .navbar-default .navbar-nav > .active > a,
   body .navbar-default .navbar-nav > .active > a:hover,
   body .navbar-default .navbar-nav > .active > a:focus {
