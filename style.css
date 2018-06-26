@@ -21,7 +21,8 @@ body {
   *Nav Menu
   *
   ***********/
-  /* solução temporária*/
+  /*!* solução temporária*!
+  #tainacan-breadcrumbs, ol.breadcrumb.item-breadcrumbs { display: none; }*/
   /*Menu do Topo que é fixo Nav-menu*/
   /************
   *
@@ -53,8 +54,6 @@ body {
       font-weight: 700; }
     body header.custom-header {
       padding: 1.3% 0; }
-  body #tainacan-breadcrumbs, body ol.breadcrumb.item-breadcrumbs {
-    display: none; }
   body .navbar-default .navbar-nav > .active > a,
   body .navbar-default .navbar-nav > .active > a:hover,
   body .navbar-default .navbar-nav > .active > a:focus {
